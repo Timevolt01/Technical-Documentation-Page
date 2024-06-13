@@ -1,0 +1,58 @@
+#main-doc{
+    line-height: 25px;
+    margin-left: 300px;
+    position: absolute;
+}
+#navbar{
+    left: 0;
+    top: 0;
+    width: 275px;
+    position: fixed;
+    border-right: 6px solid #3b3b3b;
+    height: 100%;
+}
+#nav-header{
+    font-size: 30px;
+    padding-left: 24px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+.nav-link{
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    font-size: 18.8px;
+    color: black;
+}
+.nav-div{
+    max-width: 100%;
+    border-top: 2px solid black;
+}
+.main-div{
+    margin: 20px;
+}
+.main-header{
+    padding: 15px;
+    font-size: 1.8rem
+}
+.main-div{
+    margin: 32px;
+}
+ul{
+    margin: 10px auto 10px 20px;
+}
+code{
+    margin: 14px;
+    padding: 12px;
+    font-size: medium;
+    width: 39%;
+    display: block;
+    background-color: #f7f7f7;
+}
+@media only screen and (max-width: 600px){
+    #navbar{
+        width: 500px;
+    }
+}
